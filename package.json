@@ -1,0 +1,23 @@
+{
+  "name": "changelog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ./src/index.js"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "picocolors": "^1.0.0",
+    "@clack/prompts": "0.6.1"
+  }
+}
