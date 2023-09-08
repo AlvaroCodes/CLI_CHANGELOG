@@ -3,7 +3,6 @@ const colors = require('picocolors')
 
 // Devuelve los commit filtrados dependiendo de una fecha
 const getFilterDate = async (url, date) => {
-  console.log('url', url)
   try {
     const response = await fetch(url)
     const data = await response.json()
@@ -34,7 +33,6 @@ const fetchData = async (owner = 'IGN-CNIG', repo = 'API-CNIG', brain = 'develop
     data.push(...d)
   }
 
-  console.log(data)
   return data
 }
 
